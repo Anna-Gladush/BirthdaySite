@@ -12,6 +12,10 @@
   background-color: color-mix(in oklab, #b0d58d 95%, transparent);
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Cake */
 .cake-container {
   text-align: center;
@@ -69,7 +73,7 @@
   font-size: 1.1rem;
   background-color: #f2ebdb; 
   color: #2b7fff;
-  border: 3px solid #2b7fff;
+  border: 3px solid #b0d58d;
   cursor: pointer;
   border-radius: 15px; 
   font-family: 'Courier New', Georgia, serif;

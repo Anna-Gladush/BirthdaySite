@@ -15,9 +15,9 @@ export default function App() {
             <h1 className="text-blue-600 mb-6 italic" style={{ fontSize: '3rem', fontFamily: 'serif' }}>
               С днем рождения, Мамочка!
             </h1>
-            <div className="text-6xl mb-6">🎂</div>
             <div className="bg-blue-100 rounded-2xl p-6 inline-block" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
               <img src="/StampBorder.png" alt="stamp-1" style={{ height: '35vh' }} />
+              <div className="text-6xl mb-6">🎂</div>
               <div className="text-blue-500 mb-2" style={{ fontSize: '1.5rem' }}>
                 16 Ноября, 2026
               </div>
@@ -54,7 +54,8 @@ export default function App() {
                 <p className="text-blue-600 text-sm italic text-center">
                   Каждый день с тобой ощущается как праздник! 💕
                   Спасибо, что делаешь мою жизнь намного ярче!
-                  You're not just my love, you're my best friend, my adventure buddy, and my favorite person in the entire world! Thank you for making every ordinary moment extraordinary! 💖✨
+                  Ты мой самый лучший друг, my partner-in-crime, и самый-самый любимый человек на свете! 💖✨
+                  Пусть каждый день будет полон радости, счастья и чудес. Пусть во всех сферах жизни будет гармония!
                 </p>
               </div>
             )}
@@ -66,15 +67,34 @@ export default function App() {
         </section>
         {/* Special Birthday Footer */}
         <section className="text-center">
-          <div className="bg-white/95 rounded-3xl p-8 shadow-2xl" style={{ display: 'flex', gap: '50px' }}>
+          <div className="bg-white/95 rounded-3xl p-8 shadow-2xl" style={{ display: 'flex', gap: '50px', justifyContent: 'center', alignItems: 'center' }}>
             <img src="/StampBorder-1.png" alt="stamp-2" style={{ height: '40vh' }} />
-            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <h3 className="mb-4 text-blue-500" style={{ fontSize: '2rem' }}>
-                Thank you for being you! 💖
+            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'left' }}>
+              <h3 className="mb-4 text-blue-500" style={{ fontSize: '2rem', textAlign: 'center' }}>
+                Желаю:
               </h3>
-              <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-                Every moment with you is a gift. Here's to many more birthdays together!
+              <p className="text-gray-500 mb-6 text-lg italic leading-relaxed">
+                💖Крепкого здоровья!
               </p>
+              <p className="text-gray-500 mb-6 text-lg italic leading-relaxed">
+                💖Исполнения желаний!
+              </p>
+              <p className="text-gray-500 mb-6 text-lg italic leading-relaxed">
+                💖Много путешествий!
+              </p>
+              <p className="text-gray-500 mb-6 text-lg italic leading-relaxed">
+                💖Материального благополучия!
+              </p>
+              <p className="text-gray-500 mb-6 text-lg italic leading-relaxed">
+                💖Единомышленников!
+              </p>
+              <p className="text-gray-500 mb-6 text-lg italic leading-relaxed">
+                💖0 тревог!
+              </p>
+
+
+
+
               <div className="flex justify-center gap-4 text-3xl">
                 <span className="animate-bounce">🎂</span>
                 <span className="animate-bounce" style={{ animationDelay: '0.1s' }}>🎉</span>
@@ -123,7 +143,7 @@ export default function App() {
       </div>
 
       {/* Special birthday message overlay */}
-      <div className="fixed top-1/2 left-4 transform -rotate-90 origin-center text-blue-300 text-xs font-medium opacity-60 pointer-events-none hidden sm:block">
+      <div className="fixed top-1/2 left-4 transform -rotate-90 origin-center text-blue-700 text-xs font-medium opacity-60 pointer-events-none hidden sm:block">
         С днем рождения, 16 Ноября, 2026! 🎂
       </div>
 
