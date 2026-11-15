@@ -1,7 +1,7 @@
 
-  # Love Website for Birthday (Community)
+  # Birthday site
 
-  This is a code bundle for Love Website for Birthday (Community). The original project is available at https://www.figma.com/design/kpNWbRDA8A1j1rn7xFC5tO/Love-Website-for-Birthday--Community-.
+  Original: This is a code bundle for Love Website for Birthday (Community). The original project is available at https://www.figma.com/design/kpNWbRDA8A1j1rn7xFC5tO/Love-Website-for-Birthday--Community-.
 
   ## Running the code
 
